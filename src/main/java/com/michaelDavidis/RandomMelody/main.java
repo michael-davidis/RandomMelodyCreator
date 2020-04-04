@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package main;
+package main.java.com.michaelDavidis.RandomMelody;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import main.models.Oscillator;
+import main.java.com.michaelDavidis.RandomMelody.models.Oscillator;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.SourceDataLine;
-import static main.models.Oscillator.createSinWaveBuffer;
-import main.models.RandomCreator;
+import static main.java.com.michaelDavidis.RandomMelody.models.Oscillator.createSinWaveBuffer;
+import main.java.com.michaelDavidis.RandomMelody.models.RandomCreator;
 
 /**
  *
